@@ -28,6 +28,20 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .topnav {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 0.fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 1px; 
+    grid-template-areas: 
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."; 
+  }
   
   /* Change color on hover */
   .topnav a:hover {
@@ -47,6 +61,20 @@
     content: "";
     display: table;
     clear: both;
+  }
+
+  .mainpicture {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 1px; 
+    grid-template-areas: 
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."; 
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
